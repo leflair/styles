@@ -28,7 +28,13 @@ cache:
   directories:
     - node_modules
     - vendor/bundle
+deploy:
+  provider: npm
+  email: admin@leflair.vn
+  api_key: $NPM_AUTH_TOKEN
+  on:
+    branch: master
+    tags: true
+
 notifications:
-  slack: heybb:iz4wwosL0N0EdaX1gvgkU0NH
-  webhooks:
-    - http://savage.twbsapps.com/savage/travis
+  email: false
