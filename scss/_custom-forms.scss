@@ -177,7 +177,10 @@
   } @else {
     border-radius: 0;
   }
-  appearance: none;
+  // stylelint-disable-next-line property-no-vendor-prefix
+  -webkit-appearance: none;
+  // stylelint-disable-next-line property-no-vendor-prefix
+  -moz-appearance: none;
 
   &:focus {
     // border-color: $custom-select-focus-border-color;

@@ -3933,7 +3933,6 @@ input[type="button"].btn-block {
   border-radius: 0;
   -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;
 }
 
 .custom-select:focus {
