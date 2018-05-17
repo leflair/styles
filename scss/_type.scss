@@ -57,6 +57,11 @@ h6,
   line-height: $headings-line-height + .3; // 24px
 }
 
+.micro {
+  font-size: $h6-font-size;
+  line-height: $headings-line-height + .3;
+}
+
 .lead {
   font-size: $lead-font-size;
   font-weight: $lead-font-weight;
