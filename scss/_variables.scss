@@ -45,7 +45,7 @@ $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
 $light-bg:   #F2F6FA !default;
 
-$gray-darkes: #021D2E !default;
+$gray-darkest: #021D2E !default;
 $gray-dark: #4E595D !default;
 $gray: rgba($gray-dark, .7) !default;
 $gray-light: rgba($gray-dark, .3) !default;
@@ -72,7 +72,7 @@ $colors: map-merge((
   "green":      $green,
   "teal":       $teal,
   "cyan":       $cyan,
-  "gray-darkes":$gray-darkes,
+  "gray-darkest":$gray-darkest,
   "gray-dark":  $gray-dark,
   "gray":       $gray,
   "gray-light": $gray-light,

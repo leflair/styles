@@ -20,7 +20,7 @@
   --green: #28a745;
   --teal: #20c997;
   --cyan: #17a2b8;
-  --gray-darkes: #021D2E;
+  --gray-darkest: #021D2E;
   --gray-dark: #4E595D;
   --gray: rgba(78, 89, 93, 0.7);
   --gray-light: rgba(78, 89, 93, 0.3);
@@ -586,8 +586,8 @@ pre code {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 16px;
+  padding-left: 16px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -618,8 +618,8 @@ pre code {
 
 .container-fluid {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 16px;
+  padding-left: 16px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -629,8 +629,8 @@ pre code {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: -16px;
+  margin-left: -16px;
 }
 
 .no-gutters {
@@ -653,8 +653,8 @@ pre code {
   position: relative;
   width: 100%;
   min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 16px;
+  padding-left: 16px;
 }
 
 .col {
@@ -4778,15 +4778,15 @@ input[type="button"].btn-block {
 }
 
 .card-deck .card {
-  margin-bottom: 15px;
+  margin-bottom: 16px;
 }
 
 @media (min-width: 576px) {
   .card-deck {
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+    margin-right: -16px;
+    margin-left: -16px;
   }
   .card-deck .card {
     display: -ms-flexbox;
@@ -4795,9 +4795,9 @@ input[type="button"].btn-block {
     flex: 1 0 0%;
     -ms-flex-direction: column;
     flex-direction: column;
-    margin-right: 15px;
+    margin-right: 16px;
     margin-bottom: 0;
-    margin-left: 15px;
+    margin-left: 16px;
   }
 }
 
@@ -4809,7 +4809,7 @@ input[type="button"].btn-block {
 }
 
 .card-group > .card {
-  margin-bottom: 15px;
+  margin-bottom: 16px;
 }
 
 @media (min-width: 576px) {
