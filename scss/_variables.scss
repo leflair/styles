@@ -88,6 +88,7 @@ $warning:       #E9AC4A !default;
 $danger:        #DC2434 !default;
 $light-bg:        #F2F6FA !default;
 $badge-accent:        #FB3C18 !default;
+$international:        #FF6C01 !default;
 $dark:          $gray-800 !default;
 $complementary: #E9AC4A;
 
@@ -101,6 +102,7 @@ $theme-colors: map-merge((
   "danger":     $danger,
   "light-bg":     $light-bg,
   "badge-accent":     $badge-accent,
+  "international":     $international,
   "light":      $gray-100,
   "dark":       $dark,
   "complementary":       $complementary,
