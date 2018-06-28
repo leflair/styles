@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap",
+  "name": "@leflair/styles",
   "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
   "version": "4.1.1",
   "keywords": [
@@ -11,8 +11,8 @@
     "framework",
     "web"
   ],
-  "homepage": "https://getbootstrap.com/",
-  "author": "The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)",
+  "homepage": "https://github.com/leflair/styles",
+  "author": "The Bootstrap Authors (https://github.com/leflair/styles/graphs/contributors)",
   "contributors": [
     "Twitter, Inc."
   ],
@@ -76,10 +76,10 @@
   "main": "dist/js/bootstrap",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/twbs/bootstrap.git"
+    "url": "git+https://github.com/leflair/styles.git"
   },
   "bugs": {
-    "url": "https://github.com/twbs/bootstrap/issues"
+    "url": "https://github.com/leflair/styles/issues"
   },
   "license": "MIT",
   "dependencies": {},
