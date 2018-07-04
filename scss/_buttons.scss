@@ -179,3 +179,34 @@ input[type="button"] {
   border-color: $blue-light;
   box-shadow: inset 0 3px 5px 0 rgba(0, 0, 0, 0.17);
 }
+
+
+//btn-outline-secondary customize
+
+.btn-outline-secondary {
+  color: $gray-dark;
+  background-color: $white;
+  border-color: $gray-light;
+}
+
+.btn-outline-secondary:not(:disabled):not(.disabled):active,
+.btn-outline-secondary:not(:disabled):not(.disabled).active,
+.show > .btn-outline-secondary.dropdown-toggle {
+  color: $gray-dark;
+  background-color: $gray-lighter;
+  border-color: $gray-light;
+}
+
+.btn-outline-secondary:not(:disabled):not(.disabled):active:focus,
+.btn-outline-secondary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-secondary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus {
+  color: $gray-dark;
+  background-color: $gray-lighter;
+  border-color: $gray-light;
+  box-shadow: none;
+}
